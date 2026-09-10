@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<style>
+#buttonArea {
+display: block;
+width: 480px;
+height: 480px;
+}
+button {
+display: block;
+}
+</style>
+</head>
+<body>
+<p id="makeLevelInfo"></p>
+<p id="findLevelInfo"></p>
+<form id="makeLevelForm" action="javascript:makeLevelFromForm()">
+<label for="nameInput">Name: </label>
+<input id="nameInput" type="text" value="APR" size="3"></input>
+<label for="nXInput">nX: </label>
+<input id="nXInput" type="number" value="5" size="3"></input>
+<label for="nYInput">nY: </label>
+<input id="nYInput" type="number" value="5" size="3"></input>
+<label for="nLeftInput">nLeft: </label>
+<input id="nLeftInput" type="number" value="1" size="3"></input>
+<label for="nBothInput">nBoth: </label>
+<input id="nBothInput" type="number" value="1" size="3"></input>
+<label for="nRightInput">nRight: </label>
+<input id="nRightInput" type="number" value="1" size="3"></input>
+<label for="fillChanceInput">fillChance: </label>
+<input id="fillChanceInput" type="number" value="0.5" size="3"></input>
+<input type="submit" value="Make"></input>
+</form>
+<div id="buttonArea" width="480px" height="480px">
+</div>
+<script type="text/javascript", src="main2.js"></script>
+</body>
